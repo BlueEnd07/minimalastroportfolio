@@ -1,5 +1,5 @@
 ---
-
+import '@fontsource/andika'
 ---
 
 <html lang="en">
@@ -8,9 +8,78 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Portfolio</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="max-w-fit m-auto text-left font-bold font-hand">
+    <nav class="flex gap-3 mt-3 ">
+      <a href="">About</a>
+      <a href="">Skill's</a>
+      <a href="">project's</a>
+      <a href="">blog</a>
+      <a href="">Resume</a>
+    </nav>
+
+
+    <div class="Tital mt-3 text-3xl">
+      <h1>Lokeshrawart.dev</h1>
+    </div>
+
+    <div class="About mt-3">
+      <h2 class="text-2xl">About</h2>
+      <h2 class="font-normal">Front-end React Developer 
+based in Dehradun, India. 📍 </h2>
+      <p class="font-normal"> Game Developer (hobby) 
+Linux and FOSS Enthusiast</p>
+    </div>
+
+
+    <div class="skill mt-3 ">
+      <h2 class="text-2xl">Skills</h2>
+      <ul class="px-3 text-lg font-bold">
+        <li>Forunt end
+          <ul class="flex px-2 text-sm font-normal gap-1">
+            <li>HTML,CSS,JS</li>,
+            <li>React</li>,
+            <li>astro</li>,
+            <li>Tailwind</li>
+          </ul>
+        </li>
+        <li>Backend
+          <ul class="flex px-2 text-sm font-normal gap-1">
+            <li>Python(django)</li>,
+            <li>Nodejs</li>,
+            <li>SQL(astrodb)</li>,
+            <li>noSQL(mongodb)</li>,
+            <li>RESTful APIs</li>
+          </ul>
+        </li>
+        <li>others
+          <ul class="flex px-2 text-sm font-normal gap-1">
+            <li>Docker</li>,
+            <li>Linux</li>,
+            <li>Git</li>,
+            <li>Coud(AWS and azure)</li>,
+            <li>Devops</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="project mt-3">
+      <h1 class="text-2xl">Projects</h1>
+        <div class="project-1 px-2">
+        <h1>1.PC Price comparison web app(backend api)</h1>
+      </div>
+      <div class="project-2 px-2">
+        <h1>2.Web base Mini game website</h1>
+      </div>
+      <div class="project-3 px-2">
+        <h1>3.WebGames </h1>
+      </div>
+    </div>
+
+
+
 	</body>
 </html>
